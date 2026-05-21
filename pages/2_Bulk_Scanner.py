@@ -17,8 +17,6 @@ bytes = BytesIO()
 tokenizer, model = load_model_and_tokenizer()
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-
-st.set_page_config(layout="centered")
 st.title("Legal  Bulk Scanner")
 with st.expander("ℹ️ How Bulk Scanner Works"):
     st.markdown("""
